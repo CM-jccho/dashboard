@@ -1,0 +1,17 @@
+{
+  "name": "pongift-dashboard-analyzer",
+  "version": "1.1.0",
+  "description": "Pongift New Relic 대시보드 자동 분석 및 Slack 발송",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "run-once": "node index.js --run-once",
+    "test": "node --version"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.2"
+  }
+}
